@@ -1,10 +1,11 @@
 import { createConnection } from "mysql";
+import { constants } from "./constants";
 
 var connection = createConnection({
-  host: database.host,
-  user: database.user,
-  password: database.password,
-  database: database.db,
+  host: constants.database.host,
+  user: constants.database.user,
+  password: constants.database.password,
+  database: constants.database.dbname,
 });
 
 connection.connect(function (err) {

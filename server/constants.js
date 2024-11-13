@@ -5,6 +5,6 @@ export const constants = {
         host: 'localhost',
         user: 'root',
         password: "root",
-        db: "ordertracking"
+        dbname: "ordertracking"
     }
 }
