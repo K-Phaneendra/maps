@@ -1,5 +1,5 @@
 import { createConnection } from "mysql";
-import { constants } from "./constants";
+import { constants } from "./constants.js";
 
 var connection = createConnection({
   host: constants.database.host,
