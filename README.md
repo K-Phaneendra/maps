@@ -33,3 +33,8 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 1. have your node version ready as per the `.nvmrc` file
 1. open `server` directory
 1. run `npm install`
+
+### mobile
+1. start application: `npm start`
+1. build for android: `npm run eas:build`
+1. APK file is generated and can be downloaded after logging into expo account
